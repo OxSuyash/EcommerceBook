@@ -1,0 +1,24 @@
+.admin-nav{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    // padding-top: 1rem;
+}
+
+.adnav-item {
+    // margin-top: 2;
+    font-size: 1.5rem;
+    transition: 0.3s ease-in;
+}
+
+.adnav-item p{
+    padding-top: 1rem;
+    padding: 1.2rem;
+}
+
+.adnav-item:hover{
+    color: black;
+    background-color: white;
+    
+}
